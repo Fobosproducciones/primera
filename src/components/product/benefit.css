@@ -1,0 +1,24 @@
+.main--benefits-container-card {
+  width: 80%;
+  min-width: 100px;
+  max-width: 350px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 20px 10px 0px 15px;
+  background-color: var(--warm-black);
+  border-radius: 5px;
+}
+
+.main--benefits-container-card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 10px 0;
+  line-height: 1.8rem;
+}
+
+.main--benefits-container-card p {
+  font-size: 1.4rem;
+  color: #808080;
+  font-weight: 500;
+  line-height: 1.8rem;
+}

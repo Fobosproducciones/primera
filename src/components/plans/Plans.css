@@ -1,0 +1,81 @@
+.plans {
+  height: 500px;
+  background-color: var(--off-white);
+}
+
+.plans--containertext {
+  padding: 15px;
+  margin: 0px auto 30px;
+}
+
+.plans--containertext h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 10px;
+  line-height: 1.8rem;
+  color: var(--black);
+  line-height: 26px;
+  text-align: center;
+}
+
+.plans--containertext p {
+  font-size: 1.4rem;
+  color: #808080;
+  font-weight: 500;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.plans--slider {
+  position: relative;
+  height: 320px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  padding-top: 1rem;
+  align-self: center;
+  text-align: center;
+  scroll-snap-align: center;
+}
+
+.plans--slider-containercards {
+  width: 900px;
+  display: flex;
+}
+.plans--slider-containercards-span {
+  position: absolute;
+  padding: 5px 10px;
+  min-width: 40px;
+  max-width: 60%;
+  font-family: "Inter", sans-serif;
+  left: 397px;
+  top: 0px;
+  z-index: 10;
+  align-self: center;
+  background-color: var(--bitcoin-orange);
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 15px;
+  color: var(--just-white);
+}
+
+@media only screen and (min-width: 768px) {
+  .plans--slider-containercards {
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .plans--slider {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .plans--slider-containercards-span {
+    display: none;
+  }
+}

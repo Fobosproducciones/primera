@@ -1,0 +1,140 @@
+:root {
+  /* Colors */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --grey: #bababa;
+}
+
+* {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  background-color: var(--off-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+}
+
+.form--logo {
+  width: 151px;
+  height: 24px;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.form--title {
+  padding: 15px;
+  margin: 30px 10px;
+}
+
+.form--title h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 10px 0;
+  line-height: 1.8rem;
+  color: var(--black);
+  line-height: 26px;
+  text-align: center;
+}
+
+.form--title p {
+  font-size: 1.4rem;
+  color: #808080;
+  font-weight: 500;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.form--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+  width: 200px;
+  height: 320px;
+  background-color: var(--just-white);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 10px;
+}
+
+.form--container input {
+  width: 75%;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid var(--bitcoin-orange);
+  font-size: 1rem;
+  align-self: center;
+}
+
+.form--container label {
+  padding-left: 24px;
+  margin-bottom: 5px;
+  color: var(--warm-black);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.form--container button {
+  font-family: "Inter", sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  line-height: 1.8rem;
+  width: 45%;
+  border: 2px solid var(--bitcoin-orange);
+  align-self: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 15px;
+  background-color: var(--just-white);
+}
+
+.form--container button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 2px var(--bitcoin-orange);
+}
+
+.form a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--bitcoin-orange);
+  margin-top: 30px;
+}
+.form a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    height: 100vh;
+  }
+  .form--container {
+    width: 350px;
+  }
+  .form--container label {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .form--container {
+    width: 500px;
+  }
+  .form--container label {
+    margin-left: 30px;
+  }
+}

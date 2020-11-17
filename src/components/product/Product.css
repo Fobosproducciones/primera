@@ -1,0 +1,77 @@
+.main--benefits {
+  display: flex;
+  justify-content: center;
+  height: 950px;
+  background-color: var(--black);
+  color: var(--just-white);
+}
+
+.main--benefits-container-text {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 45px;
+  text-align: center;
+  align-self: center;
+}
+
+.main--benefits-container-icon img {
+  position: absolute;
+  left: calc(50% - 20px);
+  top: 1150px;
+}
+
+.main--benefits-container-text h3 {
+  margin: 20px auto;
+  min-width: 288px;
+  max-width: 900px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--just-white);
+  line-height: 2.6rem;
+}
+
+.main--benefits-container-text p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  color: #808080;
+  line-height: 1.8rem;
+}
+
+.image--container {
+  height: 387px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets/img/bitcoinbaby2x.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--container h3 {
+  position: static;
+  margin-bottom: 200px;
+  align-self: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  color: var(--just-white);
+}
+
+@media only screen and (min-width: 768px) {
+  .main--benefits {
+    height: 600px;
+  }
+  .main--benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto 25px;
+  }
+  .main--benefits-container-icon img {
+    position: absolute;
+    top: 1030px;
+  }
+}
