@@ -43,6 +43,7 @@
 .image--container {
   height: 387px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-image: url("../../assets/img/bitcoinbaby2x.png");
   background-size: cover;
@@ -52,12 +53,23 @@
 
 .image--container h3 {
   position: static;
-  margin-bottom: 200px;
+  margin-top: 270px;
   align-self: center;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.6rem;
   line-height: 26px;
   color: var(--just-white);
+}
+.image--container h4 {
+  position: static;
+  margin-top: 20px;
+  align-self: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 26px;
+  text-decoration: underline;
+  color: var(--black);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {

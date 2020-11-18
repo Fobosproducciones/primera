@@ -45,7 +45,6 @@ main {
   height: 390px;
   padding-top: 4rem;
   align-self: center;
-  text-align: left;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -62,8 +61,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.5px;
-  min-width: 235px;
-  max-width: 500px;
+  width: 235px;
   height: 200px;
   border-radius: 8px;
   font-family: "Inter", sans-serif;

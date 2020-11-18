@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "wouter";
 import "./Product.css";
 import batata from "../../assets/icons/batata.svg";
 import clock from "../../assets/icons/clock.svg";
@@ -45,7 +46,10 @@ export default function Products() {
       </section>
       <section className="image">
         <div className="image--container">
-          <h3>Conocelo hoy.</h3>
+          <h3>Conocé más.</h3>
+          <Link to="/news">
+            <h4>CryptoNoticias</h4>
+          </Link>
         </div>
       </section>
     </div>

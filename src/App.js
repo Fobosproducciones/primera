@@ -4,6 +4,7 @@ import { Switch, Route } from "wouter";
 import Home from "./pages/Home/Home";
 import Details from "./pages/Details/Details";
 import ErrorPage from "./pages/404/404";
+import News from "./pages/News/News";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/details">
           <Details />
+        </Route>
+        <Route path="/news">
+          <News />
         </Route>
         <Route>
           <ErrorPage />
