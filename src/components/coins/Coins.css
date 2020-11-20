@@ -125,7 +125,12 @@ h5 {
   background-color: var(--soft-blue);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 767px) {
+  .main--coins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .main--coins-container {
     display: flex;
     width: 800px;

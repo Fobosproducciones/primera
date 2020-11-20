@@ -15,7 +15,7 @@ export default function Details() {
   return (
     <>
       <div className="form">
-        <img src={logo} className="form--logo" alt="logo"></img>
+        <img auto-size src={logo} className="form--logo" alt="logo"></img>
         <div className="form--title">
           <h3>Gracias por elegir nuestro servicio.</h3>
           <p>

@@ -1,3 +1,21 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loader--logo {
+  width: 200px;
+  margin: 80px auto 30px;
+  align-self: center;
+}
+
+.loader h4 {
+  font-size: 1.6rem;
+}
+
 .lds-ellipsis {
   display: inline-block;
   position: relative;

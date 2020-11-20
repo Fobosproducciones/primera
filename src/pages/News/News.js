@@ -34,7 +34,7 @@ export default function News() {
   return (
     <>
       <div className="news">
-        <img src={logo} className="news--logo" alt="logo"></img>
+        <img auto-size src={logo} className="news--logo" alt="logo"></img>
         <div className="news--title">
           <h3>Conoce las últimas noticias en el mundo de las criptomonedas.</h3>
         </div>

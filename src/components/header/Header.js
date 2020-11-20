@@ -8,7 +8,12 @@ export default function Header() {
     <div>
       <header>
         <div className="header--container">
-          <img src={logo} className="header--container-logo" alt="logo"></img>
+          <img
+            auto-size
+            src={logo}
+            className="header--container-logo"
+            alt="logo"
+          ></img>
           <h1> La próxima revolución en el intercambio de criptomonedas. </h1>
           <p>
             Batabit te ayuda a navegar entre los diferentes precios y
