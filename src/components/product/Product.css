@@ -4,6 +4,7 @@
   height: 950px;
   background-color: var(--black);
   color: var(--just-white);
+  margin-top: 1.5px;
 }
 
 .main--benefits-container-text {
@@ -63,6 +64,7 @@
 .image--container h4 {
   position: static;
   margin-top: 20px;
+  margin-bottom: 50px;
   align-self: center;
   font-weight: bold;
   font-size: 1.6rem;

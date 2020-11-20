@@ -14,9 +14,9 @@ export default function Header() {
             className="header--container-logo"
             alt="logo"
           ></img>
-          <h1> La próxima revolución en el intercambio de criptomonedas. </h1>
+          <h2> La próxima revolución en el intercambio de criptomonedas. </h2>
           <p>
-            Batabit te ayuda a navegar entre los diferentes precios y
+            Batatabit te ayuda a navegar entre los diferentes precios y
             tendencias.
           </p>
 

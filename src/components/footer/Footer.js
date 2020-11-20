@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "wouter";
 import footerLogo from "../../assets/img/logo-footer.svg";
 
 export default function Footer() {
@@ -18,7 +19,9 @@ export default function Footer() {
               <a href="/">Hackernews</a>
             </li>
           </ul>
-          <img src={footerLogo} alt="logo"></img>
+          <Link to="/">
+            <img src={footerLogo} alt="logo"></img>
+          </Link>
         </div>
       </footer>
     </div>
